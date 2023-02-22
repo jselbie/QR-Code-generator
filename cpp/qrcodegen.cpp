@@ -368,7 +368,7 @@ QrCode::QrCode() :
 
 
 bool QrCode::isValid() const {
-	return size != 0;
+	return size > 0;
 }
 
 int QrCode::getVersion() const {
